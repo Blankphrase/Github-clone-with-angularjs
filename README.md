@@ -1,30 +1,30 @@
-# `github-clone` — replica of gihub built with AngularJS
+# `github-clone` — replica of Github built with AngularJS
 
 
 ## Getting Started
 
-To get you started you can simply clone the `Gihub-clone-with-angularjs` repository and install the dependencies:
+To get you started you can simply clone the `Github-clone-with-angularjs` repository and install the dependencies:
 
 ### Prerequisites
 
-You need git to clone the `Gihub-clone-with-angularjs` repository. You can get git from [here][git].
+You need git to clone the `Github-clone-with-angularjs` repository. You can get git from [here][git].
 
-We also use a number of Node.js tools to initialize and test `Gihub-clone-with-angularjs`. You must have Node.js
+We also use a number of Node.js tools to initialize and test `Github-clone-with-angularjs`. You must have Node.js
 and its package manager (npm) installed. You can get them from [here][node].
 
 ### Clone `angular-seed`
 
-Clone the `Gihub-clone-with-angularjs` repository using git:
+Clone the `Github-clone-with-angularjs` repository using git:
 
 ```
-git clone https://github.com/Blankphrase/Gihub-clone-with-angularjs.git
-cd Gihub-clone-with-angularjs
+git clone https://github.com/Blankphrase/Github-clone-with-angularjs.git
+cd Github-clone-with-angularjs
 ```
 
-If you just want to start a new project without the `Gihub-clone-with-angularjs` commit history then you can do:
+If you just want to start a new project without the `Github-clone-with-angularjs` commit history then you can do:
 
 ```
-git clone --depth=1 https://github.com/Blankphrase/Gihub-clone-with-angularjs.git <your-project-name>
+git clone --depth=1 https://github.com/Blankphrase/Github-clone-with-angularjs.git <your-project-name>
 ```
 
 The `depth=1` tells git to only pull down one commit worth of historical data.
@@ -103,11 +103,11 @@ package-lock.json     --> Npm specific metadata, including versions of installed
 
 ## Testing
 
-There are two kinds of tests in the `Gihub-clone-with-angularjs` application: Unit tests and end-to-end tests.
+There are two kinds of tests in the `Github-clone-with-angularjs` application: Unit tests and end-to-end tests.
 
 ### Running Unit Tests
 
-The `Gihub-clone-with-angularjs` app comes preconfigured with unit tests. These are written in [Jasmine][jasmine],
+The `Github-clone-with-angularjs` app comes preconfigured with unit tests. These are written in [Jasmine][jasmine],
 which we run with the [Karma][karma] test runner. We provide a Karma configuration file to run them.
 
 * The configuration is found at `karma.conf.js`.
@@ -138,7 +138,7 @@ npm run test-single-run
 <a name="e2e-testing"></a>
 ### Running End-to-End Tests
 
-The `Gihub-clone-with-angularjs` app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
+The `Github-clone-with-angularjs` app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
 are run with the [Protractor][protractor] End-to-End test runner. It uses native events and has
 special features for AngularJS applications.
 
@@ -156,7 +156,7 @@ npm start
 ```
 
 In addition, since Protractor is built upon WebDriver, we need to ensure that it is installed and
-up-to-date. The `Gihub-clone-with-angularjs` project is configured to do this automatically before running the
+up-to-date. The `Github-clone-with-angularjs` project is configured to do this automatically before running the
 end-to-end tests, so you don't need to worry about it. If you want to manually update the WebDriver,
 you can run:
 
@@ -200,7 +200,7 @@ you can change the version range in `package.json` and then run `npm run update-
 
 ## Loading AngularJS Asynchronously
 
-The `Gihub-clone-with-angularjs` project supports loading the framework and application scripts asynchronously.
+The `Github-clone-with-angularjs` project supports loading the framework and application scripts asynchronously.
 The special `index-async.html` is designed to support this style of loading. For it to work you must
 inject a piece of AngularJS JavaScript into the HTML page. The project has a predefined script to help
 do this:
@@ -223,7 +223,7 @@ etc to function properly when an HTML page is opened via the `file://` scheme in
 
 ### Running the App during Development
 
-The `Gihub-clone-with-angularjs` project comes preconfigured with a local development web server. It is a Node.js
+The `Github-clone-with-angularjs` project comes preconfigured with a local development web server. It is a Node.js
 tool called [http-server][http-server]. You can start this web server with `npm start`, but you may
 choose to install the tool globally:
 
@@ -260,7 +260,7 @@ reverse-proxying the backend server(s) and web server(s).
 ### Travis CI
 
 [Travis CI][travis] is a continuous integration service, which can monitor GitHub for new commits to
-your repository and execute scripts such as building the app or running tests. The `Gihub-clone-with-angularjs`
+your repository and execute scripts such as building the app or running tests. The `Github-clone-with-angularjs`
 project contains a Travis configuration file, `.travis.yml`, which will cause Travis to run your
 tests when you push to GitHub.
 
