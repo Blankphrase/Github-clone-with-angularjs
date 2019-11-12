@@ -1,4 +1,4 @@
-# `github-clone` — replica of gihub built with AngularJS
+# `github-clone` — replica of github built with AngularJS
 
 
 ## Getting Started
